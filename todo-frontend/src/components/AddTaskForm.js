@@ -1,4 +1,3 @@
-// src/components/AddTaskForm.js
 import React, { useState } from 'react';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField } from '@mui/material';
 
@@ -18,21 +17,49 @@ const AddTaskForm = ({ open, handleClose, onAddTask }) => {
       <DialogTitle>Add New Task</DialogTitle>
       <DialogContent>
         <TextField
-          autoFocus
-          margin="dense"
-          label="Title"
-          fullWidth
+          label="Task Title"
           variant="outlined"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
+          style={{
+            width: '100%',
+            marginBottom: '15px',
+            padding: '10px', 
+          }}
+          InputProps={{
+            style: {
+              color: 'white', 
+            },
+          }}
+          InputLabelProps={{
+            style: {
+              color: 'white', 
+              transform: 'translate(14px, 12px) scale(1)', 
+            },
+          }}
         />
+
         <TextField
-          margin="dense"
-          label="Description"
-          fullWidth
+          label="Task Description"
           variant="outlined"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
+          style={{
+            width: '100%',
+            marginBottom: '15px',
+            padding: '10px', 
+          }}
+          InputProps={{
+            style: {
+              color: 'white', 
+            },
+          }}
+          InputLabelProps={{
+            style: {
+              color: 'white', 
+              transform: 'translate(14px, 12px) scale(1)', 
+            },
+          }}
         />
       </DialogContent>
       <DialogActions>
