@@ -36,6 +36,11 @@ npm Version 10.5.2
    04)Backend (Host 5000)          
      
       1.Install dependencies and Run backend
+            Create a .env file in the config/ directory and add:
+
+                         PORT=5000
+                         
+                         DB_LOCAL_URI=mongodb://127.0.0.1:27017/ToDoList
             
              npm install
             
