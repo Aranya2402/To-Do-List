@@ -1,45 +1,52 @@
-To-Do List Web Application (MERN Stack + Material-UI)
-npm Version
-10.5.2
-Features
-Add New Tasks: Add tasks with titles and descriptions.
-Edit Existing Tasks: Modify task titles and descriptions.
-Mark Tasks as Completed/Uncompleted: Track task completion status.
-Delete Tasks: Remove tasks from the list.
-Search and Filter Tasks: Easily search for tasks by title and filter by completion status.
-Development Tools
-VS Code - Code editor used for development.
-Postman - API testing tool for backend endpoints.
-Frontend (Host: 3000)
-Steps to Run the Frontend:
-Navigate to the frontend directory:
-bash
-Copy code
-cd todo-frontend
-Install dependencies:
-bash
-Copy code
-npm install
-Run the frontend:
-bash
-Copy code
-npm start
-Backend (Host: 5000)
-Steps to Run the Backend:
-Install backend dependencies:
-bash
-Copy code
-npm install
-Run the backend server:
-bash
-Copy code
-node ./server/server.js
-API Endpoints
-POST /api/tasks - Add a new task.
-GET /api/tasks - Retrieve all tasks.
-PATCH /api/tasks/
-- Update task completion status (mark as completed or uncompleted).
-PUT /api/tasks/
-- Edit task title and description.
-DELETE /api/tasks/
-- Delete a task.
+A dynamic and visually appealing To-Do List web application built using the MERN stack and Material-UI
+
+npm Version 10.5.2
+
+Features 
+  
+  1.Add new tasks with titles and descriptions.
+ 
+  2.Edit existing tasks.
+  
+  3.Mark tasks as completed or uncompleted.
+  
+  4.Delete tasks.
+  
+  5.Search and filter tasks.
+
+
+  Development Tools 
+  
+  1.VS Code
+  
+  2.Postman 
+
+  Frontend  (Host 3000)
+    
+     1. Navigate to frontend directory cd todo-frontend
+     
+     2. Install dependencies and Run frontend
+            
+             npm install
+             
+             npm start 
+
+   Backend (Host 5000)          
+     
+      1.Install dependencies and Run backend
+            
+             npm install
+            
+             node ./server/server.js
+
+   API Endpoints 
+     
+      1. POST /api/tasks - Add a new task.
+      
+      2. GET /api/tasks - Retrieve all tasks.
+      
+      3. PATCH /api/tasks/:id - Update task completion status.
+      
+      4. PUT /api/tasks/:id - Edit task title and description.
+      
+      5. DELETE /api/tasks/:id - Delete a task
