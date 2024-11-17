@@ -15,13 +15,15 @@ npm Version 10.5.2
   5.Search and filter tasks.
 
 
- 02) Development Tools 
+
+02)Development Tools 
   
   1.VS Code
   
   2.Postman 
 
- 03) Frontend  (Host 3000)
+
+03)Frontend  (Host 3000)
     
      1. Navigate to frontend directory cd todo-frontend
      
