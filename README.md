@@ -36,7 +36,7 @@ npm Version 10.5.2
    04)Backend (Host 5000)          
      
       1.Install dependencies and Run backend
-            Create a .env file in the config/ directory and add:
+            Create a config.env file in the config folder and add:
 
                          PORT=5000
                          
