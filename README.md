@@ -2,7 +2,7 @@ A dynamic and visually appealing To-Do List web application built using the MERN
 
 npm Version 10.5.2
 
-Features 
+01)Features 
   
   1.Add new tasks with titles and descriptions.
  
@@ -15,13 +15,13 @@ Features
   5.Search and filter tasks.
 
 
-  Development Tools 
+ 02) Development Tools 
   
   1.VS Code
   
   2.Postman 
 
-  Frontend  (Host 3000)
+ 03) Frontend  (Host 3000)
     
      1. Navigate to frontend directory cd todo-frontend
      
@@ -31,7 +31,7 @@ Features
              
              npm start 
 
-   Backend (Host 5000)          
+   04)Backend (Host 5000)          
      
       1.Install dependencies and Run backend
             
@@ -39,7 +39,7 @@ Features
             
              node ./server/server.js
 
-   API Endpoints 
+  05) API Endpoints 
      
       1. POST /api/tasks - Add a new task.
       
